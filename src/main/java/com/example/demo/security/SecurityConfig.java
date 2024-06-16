@@ -34,6 +34,13 @@ public class SecurityConfig {
 
                 .csrf(csrf -> csrf.disable())
                 .authorizeRequests()
+//                new security configuration
+//                  .authorizeHttpRequests(authorize -> authorize
+//            .requestMatchers(HttpMethod.POST, "/cart/change/**").permitAll()
+//            .requestMatchers("/users/show").hasRole("ADMIN")
+//            .requestMatchers("/create/list").hasRole("ADMIN")
+//            .anyRequest().permitAll()
+//        )
                 .requestMatchers(HttpMethod.POST, "/cart/change/**").permitAll()
                 .requestMatchers("/users/show").hasRole("ADMIN")
 //                .requestMatchers("/users/show").authenticated()
