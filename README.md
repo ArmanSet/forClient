@@ -22,7 +22,7 @@ administrator can manage users, delete them, view them, also delete goods from t
 Technologies used in the project:
 Java 21
 Spring Boot: Version 3.2.1 
-PostgreSQL 
+PostgreSQL 16.1
 JavaScript 
 Ruby 
 Maven 
@@ -32,7 +32,7 @@ Thymeleaf: Version 3.1.2.RELEASE
 Liquibase: Version 4.25.1 
 To download and install the project, follow these steps:
 
-1 Clone the repository from GitHub using the command git clone https://github.com/ArmanSet/new-shop
+1 Clone the repository 
 2 Open the project in your IDE (for example, IntelliJ IDEA 2024.1.1). 
 3 Update the application.properties file with your database credentials.
 4 Run the project using the built-in tools of your IDE.
